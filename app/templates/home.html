@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <form>
+        <label for="product_id">Product ID:</label>
+        <input type="text" id="product_id" name="product_id" required>
+        <label for="base_price">Base Price:</label>
+        <input type="text" id="base_price" name="base_price" required>
+        <button type="submit">Optimize Pricing</button>
+    </form>
+    <!-- Display optimization results here -->
+{% endblock %}

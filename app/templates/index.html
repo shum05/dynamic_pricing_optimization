@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Dynamic Pricing Optimization</title>
+</head>
+<body>
+    <header>
+        <h1>Dynamic Pricing Optimization</h1>
+    </header>
+    <div class="main-content">
+        <form>
+            <label for="product_id">Product ID:</label>
+            <input type="text" id="product_id" name="product_id" required>
+            <label for="base_price">Base Price:</label>
+            <input type="text" id="base_price" name="base_price" required>
+            <button type="submit">Optimize Pricing</button>
+        </form>
+        <!-- Display optimization results here -->
+    </div>
+    <footer>
+        &copy; 2024 Dynamic Pricing Optimization
+    </footer>
+</body>
+</html>
