@@ -1,4 +1,4 @@
-# dynamic_pricing_optimization
+
 # Dynamic Pricing Optimization
 
 This project implements a dynamic pricing optimization model using game theory principles. It allows businesses to determine optimal pricing strategies based on historical data, demand factors, seasonal influences, and competitor pricing.
